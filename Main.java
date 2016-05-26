@@ -1,6 +1,6 @@
 package com.patronus47;
 import java.util.Scanner;
-import math;
+import java.lang.Math;
 
 /**
  * Created by Fandorin on 25.05.2016.
@@ -48,8 +48,8 @@ public class Main {
         // и выводим их на экран (или указываем на отсутствие корней)
 
         if (d > 0) {
-            x1 = (-b - Math.sqrt(d) / 2 * a);
-            x2 = (-b + math.sqrt(d) / 2 * a);
+            x1 = (-b - (Math.sqrt(d)) / 2 * a);
+            x2 = (-b + (Math.sqrt(d)) / 2 * a);
             System.out.println("У уравнения два корня: x1 = " + x1 + ";" + " x2 = " + x2);
 
         } else if (d == 0) {
