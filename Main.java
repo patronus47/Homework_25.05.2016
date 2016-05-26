@@ -48,12 +48,12 @@ public class Main {
         // и выводим их на экран (или указываем на отсутствие корней)
 
         if (d > 0) {
-            x1 = (-b - (Math.sqrt(d)) / 2 * a);
-            x2 = (-b + (Math.sqrt(d)) / 2 * a);
+            x1 = (-b - Math.sqrt(d)) / (2 * a);
+            x2 = (-b + Math.sqrt(d)) / (2 * a);
             System.out.println("У уравнения два корня: x1 = " + x1 + ";" + " x2 = " + x2);
 
         } else if (d == 0) {
-            x1_2 = -b / 2 * a;
+            x1_2 = -b / (2 * a);
             System.out.println("У уравнения два равных друг другу корня: x1_2 = " + x1_2);
 
         } else {
